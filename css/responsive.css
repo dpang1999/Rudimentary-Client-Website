@@ -1,0 +1,46 @@
+/*****************************************************************************/
+/* Float */
+/*****************************************************************************/
+/* No bigger than 400px; no smaller than 250px */
+@media screen and (min-width: 640px) {
+	body {
+		background: #000;
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		align-content: flex-start;
+	}
+
+	header {
+		flex: 1 0 250px;
+		max-width: 400px;
+	}
+	
+	#large-flex {
+		flex: 1;
+		min-width: 70%;	
+	}
+	
+	header nav ul li a:last-child {
+		border-bottom: 1px solid #fff;
+	}
+	
+	#main-content {
+		margin: 0;
+		border: 20px solid #ddd;
+	}
+	
+	footer {
+		background-color: #fff;
+		border: 20px solid #ddd;
+		border-top: 0px solid transparent;
+		border-bottom-width: 40px;
+	}
+	
+}
+@media screen and (min-width: 1000px) {
+	.variable-width .slick-slide img {
+		max-height: none;
+	}
+}
